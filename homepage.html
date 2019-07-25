@@ -9,29 +9,42 @@
 				font-size: 15px;
 				background-color: rgb(215, 197, 222);
 			}
-			
+
 			h1{
 				font-size: 1.5em;
 			}
-			
+
 			p {
 				/*applies to all <p> tags*/
 				font-family: monospace;
 				/*line-height: will define the spacing between text lines*/
 				/*text-decoration:none 	this removes the line underneath a link -- this means you might want to change the color of some link */
 			}
-			
+
 		</style>
-	</head>	
-	
+	</head>
+
 	<body>
 		<h1>Katie Tooher</h1>
 		<p>Software developer and online extraordinaire!<br>This website acts as a lense into my life and as a way to reach out to clients and tutor-ees.</p>
-		
-		
-		
-		
-		
+		<a href= "tutorpage.html">Tutoring</a>
+
+	<!--here is a link that will select at random one of the webpages I have created and added to this repository-->
+		<a href= "#" onclick="randomSite();"> Generate Wepage</a>
+		<script>
+			var sites = [
+        		'mosquitoes.html',
+
+    		];
+
+    	function randomSite() {
+        	var i = parseInt(Math.random() * sites.length);
+        	location.href = sites[i];
+    	}
+		</script>
+
+
+
 	</body>
-	
+
 </html>
