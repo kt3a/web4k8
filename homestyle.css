@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Jacques+Francois+Shadow&display=swap');    /*2 fonts from google fonts api*/
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(215, 197, 222);*/
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255,255,255,.3);
+
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+.nav a:hover{
+    background-color: rgba(255,255,255, .3);
+}
+.main_header{
+    background-image: url(images/background.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Jacques Francois Shadow', cursive;
+    margin: 0;
+}
+
+/* .name{
+    position: fixed;
+    right: 50px;
+
+    fixed position allows the text to follow when you scroll
+} */
+
+/*background: url(images/mountain.jpg) top left no-repeat;*/
+
+/* .image{
+    width: 100%;
+    height: 600px;
+} */
+
+.ktimage {
+    position:relative;
+    left: 300px;
+}
