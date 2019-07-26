@@ -20,31 +20,55 @@
 				/*line-height: will define the spacing between text lines*/
 				/*text-decoration:none 	this removes the line underneath a link -- this means you might want to change the color of some link */
 			}
+			.name{
+				position: fixed;
+				right: 50px;
+			}
+			.page-wrapper {
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			width: 500px;
+			height: 964px;
+			/*background: url(mountain.jpg) top left no-repeat;*/
+			}
+			/* .image{
+				width: 100%;
+				height: 600px;
+			} */
 
 		</style>
 	</head>
 
 	<body>
-		<h1>Katie Tooher</h1>
-		<p>Software developer and online extraordinaire!<br>This website acts as a lense into my life and as a way to reach out to clients and tutor-ees.</p>
-		<a href= "tutorpage.html">Tutoring</a>
+		<div class="page-wrapper">
+			<!-- <img class = "image" src="mountain.jpg" height = "20" width = "30"> -->
 
-	<!--here is a link that will select at random one of the webpages I have created and added to this repository-->
-		<a href= "#" onclick="randomSite();"> Generate Wepage</a>
-		<script>
-			var sites = [
-        		'mosquitoes.html',
-
-    		];
-
-    	function randomSite() {
-        	var i = parseInt(Math.random() * sites.length);
-        	location.href = sites[i];
-    	}
-		</script>
+			<h1 class="name">Katie Tooher</h1>
+			<p>Software developer and online extraordinaire!<br>This website acts as a lense into my life and as a way to reach out to clients and tutor-ees.</p>
+			<a href= "tutorpage.html">Tutoring</a>
 
 
+		<!--here is a link that will select at random one of the webpages I have created and added to this repository-->
+			<a href= "#" onclick="randomSite();"> Generate Wepage</a>
+			<script>
+				var sites = [
+					'mosquitoes.html',
 
+				];
+
+			function randomSite() {
+				var i = parseInt(Math.random() * sites.length);
+				location.href = sites[i];
+			}
+			</script>
+
+			<img src="katie.jpg" alt = "it's me" width = "203">
+			<br>
+			<a target="_blank" href="https://www.linkedin.com/in/katie-tooher-a0775414b">
+				<img src="linkedinlogo.png" width="30">
+			</a>
+		</div>
 	</body>
 
 </html>
