@@ -5,12 +5,11 @@
     box-sizing: border-box;
     font-family: 'Inconsolata', monospace;
 }
-body {
-
+html, body {
     margin: 0;
     padding: 0;
-    /*background-color: rgb(215, 197, 222);*/
 }
+
 .nav ul{
     margin: 0;
 }
@@ -37,33 +36,66 @@ body {
 .nav a:hover{
     background-color: rgba(255,255,255, .3);
 }
-.main_header{
+.main-header{
     background-image: url(images/background.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 300px;
 }
 
-h1{
+.name {
+    text-align: center;
+    margin: 0;
     font-size: 50px;
     font-family: 'Jacques Francois Shadow', cursive;
-    margin: 0;
+    font-weight: normal;
+    color:white;
 }
 
-/* .name{
-    position: fixed;
-    right: 50px;
+.about-section{
+    margin: 1em;
+    background-color: rgb(240, 163, 171);
+}
+.section-header{
+    font-weight: normal;
+    font-family: 'Jacques Francois Shadow', cursive;
+    color: #333;
+    text-align: left;
+    font-size: 30px;
+}
+.test{
+    margin: 1em;
+    background-color: rgb(240, 160, 174);
+}
+.container{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0 1.5em;
 
-    fixed position allows the text to follow when you scroll
-} */
+}
+.footer-section{
+    background-color: rgb(124, 160, 194);
+    color: white;
+    padding: .25em 0;
+}
 
-/*background: url(images/mountain.jpg) top left no-repeat;*/
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: left;
+}
 
-/* .image{
-    width: 100%;
-    height: 600px;
-} */
+.footer-nav li {
+    padding: 0 .5em;
+}
 
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
 .ktimage {
     position:relative;
     left: 300px;
