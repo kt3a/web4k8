@@ -1,6 +1,7 @@
 var sites = [
     'mosquitoes.html',
-    'oranges.html'
+    'oranges.html',
+    'index.html'
 ];
 
 function randomSite() {
