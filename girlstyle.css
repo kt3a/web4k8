@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans|PT+Sans|Source+Sans+Pro&display=swap');
+
+.lesson {
+	position: relative;
+	overflow: hidden;
+	font-family: 'Source Sans Pro';
+	border-bottom: 1px solid #CCC;
+	padding: 30px;
+}
+
+
+.main-header{
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 0px;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+    padding: .6em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(255,255,255,.3);
+
+}
+.main-nav li{
+    padding: 0 5%;
+}
+
+.lesson .date {
+	text-align: center;
+	float: left;
+	width: 50px;
+	margin: 15px 0;
+}
+
+.lesson .date .month {
+	color: #036;
+        font-size: 18px;
+	margin: 0;
+}
+
+.lesson .date .day {
+	color: black;
+        font-size: 48px;
+        line-height: 48px;
+	margin: 0;
+	font-weight: lighter;
+	font-family: 'Noto Sans';
+}
+
+.lesson .details {
+	padding: 15px;
+	margin-left: 70px;
+}
+
+.lesson .details .title {
+	color: #036;
+        font-size: 24px;
+	margin: 0;
+}
+
+.lesson .details .desc {
+	color: #333;
+        font-size: 14px;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.lesson.passed  .date .month, .lesson.passed .date .day, .lesson.passed .details .title, .lesson.passed .details .desc {
+	color: #BBB;
+}
+
+.corner-ribbon {
+width: 100px;
+background: #e43;
+position: absolute;
+top: 15px;
+left: -25px;
+text-align: center;
+line-height: 25px;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 13px;
+color: #f0f0f0;
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
