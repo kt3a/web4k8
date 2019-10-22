@@ -1,5 +1,5 @@
 var sites = [
-    'webvr.html',
+    'webvr/webvr.html',
     'mosquitoes.html'
 ];
 

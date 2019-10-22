@@ -8,8 +8,14 @@
 	padding: 30px;
 }
 
+h3{
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+	font-size: 19px;
+}
 
 .main-header{
+	font-family: 'Inconsolata', monospace;
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 0px;
