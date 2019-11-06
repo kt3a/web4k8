@@ -76,6 +76,52 @@ public class Student{
     //tostring method will print the object
     return $"{name} is {age} years old in grade {grade} and have favorite subject {sub} and are allergic to {al}";
   }
+}
 
+public class Teacher {
+  // Attributes
+  string subject, name;
+  int age;
+
+  // Default Constructor
+  public Teacher() {
+    subject = "math";
+    name = "Rebecca or Karen";
+    age = 43;
+  }
+
+  // Constructor
+  public Teacher(string subject, string name, int age) {
+    this.subject = subject;
+    this.name = name;
+    this.age = age;
+  }
+
+  // Setters
+  public void setSubject(string subject) {
+    this.subject = subject;
+  }
+  public void setName(string name) {
+    this.name = name;
+  }
+  public void setAge(int age) {
+    this.age = age;
+  }
+
+  // Getters
+  public string getSubject() {
+    return subject;
+  }
+  public string getName() {
+    return name;
+  }
+  public int getAge() {
+    return age;
+  }
+
+  // ToString to print all attributes
+  public override string ToString() {
+    return $"{name} is {age} years old and teaches {subject}.";
+  }
 
 }
