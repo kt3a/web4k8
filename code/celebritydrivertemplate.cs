@@ -1,3 +1,6 @@
+using System;
+using System.Linq;
+
 class MainClass {
   public static void Main (string[] args) {
     string col,an,drink,activity;
@@ -42,6 +45,13 @@ class MainClass {
 
 
     }
+
+
+    //code to find the winner -- you will need to add if statements to get the correct return object 
+    int[] ppl = new int[5] {a,k,g,r,b};
+    int maxValue = ppl.Max();
+    int maxIndex = Array.IndexOf(ppl, maxValue);
+
 
 
   }
