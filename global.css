@@ -115,8 +115,9 @@ h2, h3, h4, h5 {
 }
 
 .slides {
-	text-decoration: underline;
-    color: #b376db;
+    text-decoration: underline;
+    color: red;
+    /* color: #b376db; */
     font-weight: bold;
 }
 
