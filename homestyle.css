@@ -9,6 +9,8 @@ html, body {
     margin: 0;
     padding: 0;
     background-image: url(images/background.jpg);
+    /* background-size: 100% 100%; */
+    /* background-repeat: no-repeat; */
 }
 
 .nav ul{
@@ -111,3 +113,5 @@ html, body {
     position:relative;
     left: 300px;
 }
+
+
